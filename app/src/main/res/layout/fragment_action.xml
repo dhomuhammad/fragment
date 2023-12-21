@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru"
+    tools:context=".ActionFragment">
+
+    <TextView
+        android:id="@+id/action_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Sinopsis film : Seorang master seni bela diri marah dengan salah satu murid Ip Man yang mengajar kung fu di Amerika.
+        Murid Ip Man itu telah mengecewakan komunitas seni bela diri setempat karena membuka sebuah sekolah bernama Wing Chun.
+        Ip Man pun berusaha mengatasi permasalahan tersebut, tetapi tidak mudah.
+        Terlebih, ia berada di lingkungan yang penuh diskriminasi dan rasis kepada orang Tionghoa."
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="835dp"
+        android:src="@drawable/action" />
+</FrameLayout>

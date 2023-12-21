@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange"
+    tools:context=".RomanceFragment">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="182dp"
+        android:layout_height="805dp"
+        android:src="@drawable/romance" />
+
+    <TextView
+        android:id="@+id/romance_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sinopsis film : Film ini bercerita tentang Bandung yang kembali ke era 90-an. Panglima tempur salah satu geng motor, Dilan (Iqbaal Ramadhan) menjalin hubungan dengan seorang siswi baru dari Jakarta bernama Milea (Vanesha Prescilla). Dilan berusaha keras untuk mendapatkan Milea. Walaupun awalnya Milea merasa aneh dengan Dilan, namun lama-lama keduanya saling jatuh cinta juga."
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</FrameLayout>
