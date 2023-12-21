@@ -1,2 +1,2 @@
 # fragment
-https://github.com/dhomuhammad/fragment1
+BRANCHES nya di ubah ke MASTER terlebih dahulu
